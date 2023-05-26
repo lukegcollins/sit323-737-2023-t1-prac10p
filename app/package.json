@@ -1,0 +1,16 @@
+{
+  "name": "simple-nodejs-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for Docker and Kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Luke Collins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "prom-client": "^14.2.0"
+  }
+}
